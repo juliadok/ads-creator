@@ -1,0 +1,13 @@
+.Preview {
+    width: 30%;
+    float: right;
+    background-color: aqua;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.Preview img {
+    width: 150px;
+    height: 150px;
+
+}
