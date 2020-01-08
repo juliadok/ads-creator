@@ -1,13 +1,5 @@
 .App {
-  text-align: center;
-  margin: 0px 60px;
   background-color: #d6e8ec;
-  height: 800px;
-}
-
-.mainModule {
-  float: left;
-  width: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
