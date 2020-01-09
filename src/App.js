@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import Preview from './components/Preview/Preview.js'
 import { Container, Row, Col } from 'react-bootstrap';
-import Main from './components/Main/Main';
+import MainContainer from './components/Main/MainContainer';
 
-function App() {
+function App(props) {
   return (
-    <Container>
+    <Container >
       <Row>
         <Col xs = {9}>
-            <Main />
+            <MainContainer state = {props.state}/>
         </Col>
         <Col xs = {1}></Col>
         <Col xs = {2}>

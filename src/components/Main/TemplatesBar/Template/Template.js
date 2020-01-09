@@ -1,18 +1,13 @@
 import React from 'react';
 import styles from './Template.module.css';
+import { Link } from 'react-router-dom';
 
 const Template = (props) => {
     return (
         <div>
-            <a href = '/text'>
-                <img className = {styles.templatePicture} src = 'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/real-estate-agency-house-sale-retail-ad-marketing-auction-flyer-template-61306859f91ac998b2b5443c3ebaad3c_screen.jpg' alt = 'medicine'/>
-            </a>
-            <a href = '/text'>
-                <img className = {styles.templatePicture} src = 'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/real-estate-agency-house-sale-retail-ad-marketing-auction-flyer-template-61306859f91ac998b2b5443c3ebaad3c_screen.jpg' alt = 'medicine'/>
-            </a>
-            <a href = '/text'>
-                <img className = {styles.templatePicture} src = 'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/real-estate-agency-house-sale-retail-ad-marketing-auction-flyer-template-61306859f91ac998b2b5443c3ebaad3c_screen.jpg' alt = 'medicine'/>
-            </a>
+            <Link to = '/text'>
+                <img className = {styles.templatePicture} src = {props.url} alt = 'template'/>
+            </Link>
         </div>
     )
 }
