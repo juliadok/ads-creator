@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 const Template = (props) => {
     return (
-        <div>
+        <>
             <Link to = '/text'>
                 <img className = {styles.templatePicture} src = {props.url} alt = 'template'/>
             </Link>
-        </div>
+        </>
     )
 }
 

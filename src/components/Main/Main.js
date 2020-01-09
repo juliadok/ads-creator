@@ -9,7 +9,7 @@ const Main = (props) => {
             <Route exact path='/'
                 render={() => <TemplatesBar urls = {props.templatesPage.urls} />} />
             <Route path='/text'
-                render={() => <TextForms />} />
+                render={() => <TextForms forms = {props.templatesPage.forms} />} />
         </Switch>
     )
 }

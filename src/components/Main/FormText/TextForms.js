@@ -2,14 +2,21 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 
 const TextForms = (props) => {
+
+let form = props.forms.map( f => 
+    <Form.Group>
+        <Form.Label>{f.label}</Form.Label>
+        <Form.Control placeholder = {f.placeholder} />
+    </Form.Group>)
+
     return (
         <div>
             <Form>
-                <Form.Group>
-                    <Form.Label>Enter your text:</Form.Label>
-                    <Form.Control placeholder="Enter email" />
-                </Form.Group>
+                { form }
             </Form>
+            <Button variant="primary" type="submit">
+                Previous
+            </Button>
             <Button variant="primary" type="submit">
                 Next
             </Button>
