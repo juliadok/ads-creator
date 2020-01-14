@@ -2,15 +2,18 @@ import React from 'react';
 import Template from './Template/Template';
 import styles from './TemplatesBar.module.css';
 
-let TemplatesBar = (props) => {
-    let TemplateElement = props.urls.map(u => <Template url={u.url} key = {u.id} id={u.id} />);
-    
+
+class TemplatesBar extends React.Component {
+  TemplateElement = this.props.urls.map(urls => <Template url={urls.url} key = {urls.id} id={urls.id} />);
+
+  render () {
     return (
-        <div className = {styles.TemplatesBar}>
+      <div className = {styles.TemplatesBar}>
             <p>Choose a template:</p>
-            { TemplateElement }
+            { this.TemplateElement }
         </div>
     )
+  }
 }
 
 export default TemplatesBar;

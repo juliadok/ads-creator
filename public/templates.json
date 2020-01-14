@@ -2,45 +2,152 @@
   {
     "name": "House",
     "id": 1,
-    "background": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/real-estate-agency-house-sale-retail-ad-marketing-auction-flyer-template-61306859f91ac998b2b5443c3ebaad3c_screen.jpg",
-    "block": {
-      "name": "Title",
-      "x": 10,
-      "y": 10,
-      "text": "House for sale"
-    }
+    "url": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/real-estate-agency-house-sale-retail-ad-marketing-auction-flyer-template-61306859f91ac998b2b5443c3ebaad3c_screen.jpg",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
   },
   {
     "name": "Party",
     "id": 2,
-    "background": "https://images.app.goo.gl/k6Fa3RWcNMWQUpVw5",
-    "block": {
-      "name": "Title",
-      "x": 10,
-      "y": 10,
-      "text": "Come to the party"
-    }
+    "url": "https://q-cf.bstatic.com/images/hotel/max1024x768/208/208187160.jpg",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
   },
   {
     "name": "Animal",
     "id": 3,
-    "background": "https://images.app.goo.gl/k6Fa3RWcNMWQUpVw5",
-    "block": {
-      "name": "Title",
-      "x": 10,
-      "y": 10,
-      "text": "I found a cat"
-    }
+    "url": "https://i.pinimg.com/originals/62/12/33/621233789a9df143024d0a1eb8fe18e3.jpg",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
   },
   {
     "name": "Medicine",
     "id": 4,
-    "background": "https://images.app.goo.gl/HWTThsoA5nLPckB37",
-    "block": {
-      "name": "Title",
-      "x": 10,
-      "y": 10,
-      "text": "I'm looking for some medicine"
-    }
+    "url": "https://www.veganfoodandliving.com/wp-content/uploads/2019/03/featured.jpg",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Travel",
+    "id": 5,
+    "url": "https://j.dokol.in/images/amsterdam-1.jpg",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Life",
+    "id": 5,
+    "url": "https://cdn.steemitimages.com/DQmNkkJd8jooLSuLHpzUjzEpQxqe5R5DE9AN2BqZPqY4rwp/For-Finding-Ease.png",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
   }
 ]
+
