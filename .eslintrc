@@ -11,12 +11,8 @@
     "prettier"
   ],
   "rules": {
-    "semi": 0,
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "prettier/prettier": [
-      "error", {
-        "semi": false
-      }
-    ]
+    "prettier/prettier": "error",
+    "react/prop-types": "off",
+    "import/prefer-default-export": "off",
   }
 }

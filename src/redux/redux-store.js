@@ -1,11 +1,11 @@
-import { createStore, combineReducers } from "redux";
-import templateReducer from "./template-reducer";
+import { createStore, combineReducers } from 'redux';
+import templateReducer from './template-reducer';
 
-let reducers = combineReducers({
-    templatesPage: templateReducer
+const reducers = combineReducers({
+  templatesPage: templateReducer,
 });
 
-let store = createStore(reducers);
+const store = createStore(reducers);
 
 window.store = store;
 export default store;
