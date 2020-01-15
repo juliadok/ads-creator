@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 
-const TextForms = (forms) => {
+const TextForms = ({ forms }) => {
   const form = forms.map((f) => (
     <Form.Group>
       <Form.Label>{f.label}</Form.Label>

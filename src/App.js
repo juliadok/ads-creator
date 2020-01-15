@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
-import Preview from './components/Preview/Preview.js'
 import { Container, Row, Col } from 'react-bootstrap';
+import Preview from './components/Preview/Preview';
 import MainContainer from './components/Main/MainContainer';
 
-function App(props) {
+function App({ state }) {
   return (
-    <Container >
+    // eslint-disable-next-line react/jsx-filename-extension
+    <Container>
       <Row>
-        <Col xs = {9}>
-            <MainContainer state = {props.state}/>
+        <Col xs={9}>
+          <MainContainer state={state} />
         </Col>
-        <Col xs = {1}></Col>
-        <Col xs = {2}>
+        <Col xs={1} />
+        <Col xs={2}>
           <Preview />
         </Col>
       </Row>
