@@ -100,8 +100,33 @@
     ]
   },
   {
-    "name": "Travel",
+    "name": "Sea",
     "id": 5,
+    "url": "https://cdn.steemitimages.com/DQmNkkJd8jooLSuLHpzUjzEpQxqe5R5DE9AN2BqZPqY4rwp/For-Finding-Ease.png",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Travel",
+    "id": 6,
     "url": "https://j.dokol.in/images/amsterdam-1.jpg",
     "blocks": [
       {
@@ -125,9 +150,84 @@
     ]
   },
   {
-    "name": "Life",
-    "id": 5,
-    "url": "https://cdn.steemitimages.com/DQmNkkJd8jooLSuLHpzUjzEpQxqe5R5DE9AN2BqZPqY4rwp/For-Finding-Ease.png",
+    "name": "Yellow",
+    "id": 7,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Color_icon_yellow.svg/300px-Color_icon_yellow.svg.png",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Ship",
+    "id": 8,
+    "url": "https://media.cntraveler.com/photos/5de6a181a5b6180008b5ee82/4:3/w_480,c_limit/Sea-Cloud-Spirit_2_Sea_Cloud_Spirit_quer_A4.jpg",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Grass",
+    "id": 9,
+    "url": "https://dxgh891opzso3.cloudfront.net/files/5/9/6/9/2/shutterstock_1045743757.jpg?height=2000&width=3000",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Title"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 20,
+        "text": "Main text"
+      },
+      {
+        "name": "Contact",
+        "x": 20,
+        "y": 40,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Winter",
+    "id": 10,
+    "url": "https://meteoroerstreek.nl/wp-content/uploads/2019/01/winterplaatje-1024x682.jpg",
     "blocks": [
       {
         "name": "Title",
