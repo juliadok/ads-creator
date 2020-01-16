@@ -1,4 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import * as axios from 'axios';
 import Template from './Template/Template';
@@ -19,11 +18,12 @@ class TemplatesBar extends React.Component {
   }
 
   render() {
+    const { urls } = this.state;
     return (
       <div className={styles.TemplatesBar}>
         <p>Choose a template:</p>
-        {this.state.urls.map((urls) => (
-          <Template url={urls.url} key={urls.id} id={urls.id} />
+        {urls.map(({ id, url }) => (
+          <Template url={url} key={id} id={id} />
         ))}
       </div>
     );
