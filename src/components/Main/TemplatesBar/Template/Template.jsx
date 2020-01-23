@@ -1,14 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 import styles from './Template.module.css';
 
-const Template = ({ url }) => {
+const Template = ({ url, setPreview }) => {
+  const onSetPreview = () => {
+    setPreview(url);
+  };
+
   return (
-    <>
-      <Link to="/text">
-        <img className={styles.templatePicture} src={url} alt="template" />
-      </Link>
-    </>
+    <Button variant="link" onClick={onSetPreview}>
+      <img className={styles.templatePicture} src={url} alt="template" />
+    </Button>
   );
 };
 
