@@ -1,13 +1,18 @@
 import React from 'react';
 import './App.css';
 import { Container } from 'react-bootstrap';
+import { Route, Switch } from 'react-router-dom';
 import MainContainer from './components/Main/MainContainer';
+import TextContainer from './components/Text/TextContainer';
 
 function App({ state }) {
   return (
     // eslint-disable-next-line react/jsx-filename-extension
     <Container>
-      <MainContainer state={state} />
+      <Switch>
+        <Route exact path="/" render={() => <MainContainer state={state} />} />
+        <Route path="/text" render={() => <TextContainer state={state} />} />
+      </Switch>
     </Container>
   );
 }
