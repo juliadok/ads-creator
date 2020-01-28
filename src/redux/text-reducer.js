@@ -1,5 +1,6 @@
 const SET_USER_TEXT = 'SET_USER_TEXT';
-const SET_FORM_NUMBER = 'SET_FORM_NUMBER';
+const SET__NEXT_FORM = 'SET__NEXT_FORM';
+const SET_PREV_FORM = 'SET_PREV_FORM';
 
 const initialState = {
   texts: [
@@ -21,10 +22,15 @@ const textReducer = (state = initialState, action) => {
         ...state,
         userData: action.userData,
       };
-    case SET_FORM_NUMBER:
+    case SET__NEXT_FORM:
       return {
         ...state,
-        formNumber: action.formNumber,
+        formNumber: action.formNumber + 1,
+      };
+    case SET_PREV_FORM:
+      return {
+        ...state,
+        formNumber: action.formNumber - 1,
       };
     default:
       return state;
@@ -32,6 +38,7 @@ const textReducer = (state = initialState, action) => {
 };
 
 export const setUserData = (userData) => ({ type: SET_USER_TEXT, userData });
-export const setFormNumber = (formNumber) => ({ type: SET_FORM_NUMBER, formNumber });
+export const setNextForm = (formNumber) => ({ type: SET__NEXT_FORM, formNumber });
+export const setPrevForm = (formNumber) => ({ type: SET__NEXT_FORM, formNumber });
 
 export default textReducer;

@@ -3,10 +3,10 @@ import { Button, Row, Col, ProgressBar } from 'react-bootstrap';
 import Preview from '../Main/Preview/Preview';
 import { TextFormRedux } from './TextForm';
 
-const TextPage = ({ textPage, templatesPage, setUserData, setFormNumber }) => {
+const TextPage = ({ textPage, templatesPage, setUserData, setNextForm, setPrevForm }) => {
   const onSubmit = (formData) => {
     setUserData(formData);
-    setFormNumber(textPage.formNumber + 1);
+    setNextForm(textPage.formNumber);
   };
 
   return (
@@ -15,7 +15,7 @@ const TextPage = ({ textPage, templatesPage, setUserData, setFormNumber }) => {
         <Row>
           <Col xs={9}>
             <p>Here you can make your personal template</p>
-            <TextFormRedux textPage={textPage} onSubmit={onSubmit} />
+            <TextFormRedux textPage={textPage} onSubmit={onSubmit} setPrevForm={setPrevForm} />
             <br />
             <ProgressBar
               now={textPage.progress[textPage.formNumber]}

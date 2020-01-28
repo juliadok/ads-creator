@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import TextPage from './TextPage';
-import { setUserData, setFormNumber } from '../../redux/text-reducer';
+import { setUserData, setNextForm, setPrevForm } from '../../redux/text-reducer';
 
 const mapStateToProps = ({ textPage, templatesPage }) => ({ textPage, templatesPage });
 
-export default connect(mapStateToProps, { setUserData, setFormNumber })(TextPage);
+export default connect(mapStateToProps, { setUserData, setNextForm, setPrevForm })(TextPage);
