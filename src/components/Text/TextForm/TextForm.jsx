@@ -2,7 +2,7 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { reduxForm, Field } from 'redux-form';
 
-const TextForm = ({ textPage, handleSubmit, setPrevForm }) => {
+const TextForm = ({ textPage, handleSubmit, onPrevPage }) => {
   const text = (
     <Form.Group key={textPage.texts[textPage.formNumber].id}>
       <Form.Label>{textPage.texts[textPage.formNumber].label}</Form.Label>
@@ -14,15 +14,11 @@ const TextForm = ({ textPage, handleSubmit, setPrevForm }) => {
     </Form.Group>
   );
 
-  const onPrevPage = () => {
-    setPrevForm(textPage.formNumber);
-  };
-
   return (
     <Form onSubmit={handleSubmit}>
       {text}
       {textPage.formNumber > 0 && (
-        <Button variant="primary" type="button" onClick={onPrevPage}>
+        <Button variant="primary" as="a" type="button" onClick={onPrevPage}>
           prev
         </Button>
       )}

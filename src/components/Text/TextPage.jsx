@@ -1,12 +1,18 @@
 import React from 'react';
 import { Button, Row, Col, ProgressBar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Preview from '../Main/Preview/Preview';
-import { TextFormRedux } from './TextForm';
+import { TextFormRedux } from './TextForm/TextForm';
+// import FinalPage from '/FinalPage/FinalPage';
 
 const TextPage = ({ textPage, templatesPage, setUserData, setNextForm, setPrevForm }) => {
   const onSubmit = (formData) => {
     setUserData(formData);
     setNextForm(textPage.formNumber);
+  };
+
+  const onPrevPage = () => {
+    setPrevForm(textPage.formNumber);
   };
 
   return (
@@ -15,7 +21,7 @@ const TextPage = ({ textPage, templatesPage, setUserData, setNextForm, setPrevFo
         <Row>
           <Col xs={9}>
             <p>Here you can make your personal template</p>
-            <TextFormRedux textPage={textPage} onSubmit={onSubmit} setPrevForm={setPrevForm} />
+            <TextFormRedux textPage={textPage} onSubmit={onSubmit} onPrevPage={onPrevPage} />
             <br />
             <ProgressBar
               now={textPage.progress[textPage.formNumber]}
@@ -27,9 +33,11 @@ const TextPage = ({ textPage, templatesPage, setUserData, setNextForm, setPrevFo
           </Col>
         </Row>
       ) : (
-        <Button variant="primary" type="submit">
-          Final result
-        </Button>
+        <Link to="/result">
+          <Button variant="primary" as="span" block>
+            Show final result
+          </Button>
+        </Link>
       )}
     </>
   );

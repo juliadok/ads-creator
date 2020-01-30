@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import { Route, Switch } from 'react-router-dom';
 import MainContainer from './components/Main/MainContainer';
 import TextContainer from './components/Text/TextContainer';
+import FinalPage from './components/Text/FinalPage/FinalPage';
 
 function App({ state }) {
   return (
@@ -12,6 +13,7 @@ function App({ state }) {
       <Switch>
         <Route exact path="/" render={() => <MainContainer state={state} />} />
         <Route path="/text" render={() => <TextContainer state={state} />} />
+        <Route path="/result" render={() => <FinalPage state={state} />} />
       </Switch>
     </Container>
   );

@@ -9,8 +9,6 @@ const initialState = {
     { id: 3, label: 'Enter your contact:', placeholder: 'Contact details', name: 'contact' },
   ],
   userData: [],
-  selectTemplateUrl:
-    'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/real-estate-agency-house-sale-retail-ad-marketing-auction-flyer-template-61306859f91ac998b2b5443c3ebaad3c_screen.jpg',
   formNumber: 0,
   progress: [0, 30, 60, 100],
 };
@@ -39,6 +37,6 @@ const textReducer = (state = initialState, action) => {
 
 export const setUserData = (userData) => ({ type: SET_USER_TEXT, userData });
 export const setNextForm = (formNumber) => ({ type: SET__NEXT_FORM, formNumber });
-export const setPrevForm = (formNumber) => ({ type: SET__NEXT_FORM, formNumber });
+export const setPrevForm = (formNumber) => ({ type: SET_PREV_FORM, formNumber });
 
 export default textReducer;
