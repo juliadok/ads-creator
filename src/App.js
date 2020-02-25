@@ -1,22 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Container } from 'react-bootstrap';
-import { Route, Switch } from 'react-router-dom';
-import MainContainer from './components/Main/MainContainer';
-import TextContainer from './components/Text/TextContainer';
-import FinalPage from './components/Text/FinalPage/FinalPage';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Content from './components/Content/Content';
 
-function App({ state }) {
+const App = ({ state }) => {
   return (
     // eslint-disable-next-line react/jsx-filename-extension
-    <Container>
-      <Switch>
-        <Route exact path="/" render={() => <MainContainer state={state} />} />
-        <Route path="/text" render={() => <TextContainer state={state} />} />
-        <Route path="/result" render={() => <FinalPage state={state} />} />
-      </Switch>
-    </Container>
+    <>
+      <Header />
+      <Content state={state} />
+      <Footer className="bg-primary" />
+    </>
   );
-}
+};
 
 export default App;
