@@ -1,28 +1,32 @@
 const SET_AD = 'SET_AD';
 
 const initialState = {
-  urls: [],
-  ad: 'https://img3.goodfon.ru/wallpaper/nbig/4/c0/abstract-background-rainbow-7757.jpg',
-  textBlock: [
-    {
-      name: 'Title',
-      x: 10,
-      y: 10,
-      text: 'Nature',
-    },
-    {
-      name: 'Main',
-      x: 10,
-      y: 30,
-      text: 'Main text',
-    },
-    {
-      name: 'Contact',
-      x: 20,
-      y: 40,
-      text: 'Contact detail',
-    },
-  ],
+  templates: [],
+  ad: {
+    name: 'Rainbow',
+    id: 1,
+    url: 'https://img3.goodfon.ru/wallpaper/nbig/4/c0/abstract-background-rainbow-7757.jpg',
+    blocks: [
+      {
+        name: 'Title',
+        x: 10,
+        y: 10,
+        text: 'Rainbow',
+      },
+      {
+        name: 'Main',
+        x: 10,
+        y: 90,
+        text: 'Main text example',
+      },
+      {
+        name: 'Contact',
+        x: 100,
+        y: 180,
+        text: 'Contact detail',
+      },
+    ],
+  },
 };
 
 const templateReducer = (state = initialState, action) => {
@@ -31,7 +35,6 @@ const templateReducer = (state = initialState, action) => {
       return {
         ...state,
         ad: action.ad,
-        textBlock: action.textBlock,
       };
 
     default:
@@ -40,6 +43,7 @@ const templateReducer = (state = initialState, action) => {
 };
 
 // action creators
-export const setAd = (ad, textBlock) => ({ type: SET_AD, ad, textBlock });
+export const setAd = (ad) => ({ type: SET_AD, ad });
+// export const setAd = (url) => ({ type: SET_AD, url });
 
 export default templateReducer;

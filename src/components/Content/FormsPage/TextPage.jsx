@@ -6,7 +6,8 @@ import { TextFormRedux } from './TextForm/TextForm';
 
 const TextPage = ({ formsPage, ad, setUserData, setNextForm, setPrevForm }) => {
   const onSubmit = (formData) => {
-    setUserData(formData);
+    const formValue = Object.values(formData);
+    setUserData(formValue);
     setNextForm(formsPage.formNumber);
   };
 
@@ -32,7 +33,7 @@ const TextPage = ({ formsPage, ad, setUserData, setNextForm, setPrevForm }) => {
             />
           </Col>
           <Col xs={12} md={4}>
-            <Ad ad={ad} />
+            <Ad ad={ad} values={formsPage.userData} />
           </Col>
         </Row>
       ) : (

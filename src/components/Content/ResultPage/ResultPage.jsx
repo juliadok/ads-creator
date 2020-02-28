@@ -16,8 +16,7 @@ class ResultPage extends React.Component {
   };
 
   render() {
-    const { formsPage } = this.props;
-    const { ad } = this.props;
+    const { formsPage, ad } = this.props;
     return (
       <>
         <p>
@@ -26,13 +25,13 @@ class ResultPage extends React.Component {
         <div>
           <Row>
             <Col xs="12" md={{ span: 6, offset: 3 }} lg={{ span: 4, offset: 4 }}>
-              <Ad formsPage={formsPage} ad={ad} />
+              <Ad ad={ad} values={formsPage.userData} />
             </Col>
           </Row>
           <Row>
             <Col className="py-3">
               <Button variant="dark" onClick={this.handleClick}>
-                Save
+                Download
               </Button>
             </Col>
           </Row>

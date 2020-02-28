@@ -8,17 +8,17 @@ class TemplatesPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      urls: [],
+      templates: [],
     };
   }
 
   async componentDidMount() {
-    const { data: urls } = await axios.get('/templates.json');
-    this.setState({ urls });
+    const { data: templates } = await axios.get('/templates.json');
+    this.setState({ templates });
   }
 
   render() {
-    const { urls } = this.state;
+    const { templates } = this.state;
     const { template, setAd } = this.props;
     return (
       <>
@@ -27,10 +27,10 @@ class TemplatesPage extends React.Component {
         </p>
         <Row>
           <Col xs={12} md={8}>
-            <TemplatesBar urls={urls} setAd={setAd} />
+            <TemplatesBar templates={templates} setAd={setAd} />
           </Col>
           <Col md={4} className="d-none d-sm-block">
-            <Ad ad={template.ad} textBlock={template.textBlock} />
+            <Ad ad={template.ad} values={template.ad.blocks.map(({ text }) => text)} />
           </Col>
         </Row>
       </>

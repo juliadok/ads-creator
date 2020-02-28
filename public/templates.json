@@ -13,13 +13,13 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 100,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
@@ -38,14 +38,14 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Come to the best party in my house."
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
-        "text": "Send me message in advance!"
+        "x": 100,
+        "y": 180,
+        "text": "Contact detail"
       }
     ]
   },
@@ -55,7 +55,7 @@
     "url": "https://i.pinimg.com/originals/62/12/33/621233789a9df143024d0a1eb8fe18e3.jpg",
     "blocks": [
       {
-        "name": "Title",
+        "name": "Cat",
         "x": 10,
         "y": 10,
         "text": "Animal"
@@ -63,14 +63,14 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Sell a white cat"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
-        "text": "Contact detail"
+        "x": 10,
+        "y": 180,
+        "text": "Send me a pm."
       }
     ]
   },
@@ -88,13 +88,13 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 100,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
@@ -106,20 +106,20 @@
     "blocks": [
       {
         "name": "Title",
-        "x": 10,
+        "x": 100,
         "y": 10,
         "text": "Sea"
       },
       {
         "name": "Main",
-        "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "x": 100,
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 100,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
@@ -138,13 +138,13 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 100,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
@@ -163,13 +163,13 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 100,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
@@ -188,13 +188,13 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 100,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
@@ -213,13 +213,13 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 100,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
@@ -238,13 +238,13 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 100,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
@@ -263,13 +263,13 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 100,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
@@ -288,13 +288,13 @@
       {
         "name": "Main",
         "x": 10,
-        "y": 20,
-        "text": "Main text"
+        "y": 90,
+        "text": "Main text example"
       },
       {
         "name": "Contact",
-        "x": 20,
-        "y": 40,
+        "x": 10,
+        "y": 180,
         "text": "Contact detail"
       }
     ]
