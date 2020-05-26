@@ -3,15 +3,16 @@ const SET_AD = 'SET_AD';
 const initialState = {
   templates: [],
   ad: {
-    name: 'Rainbow',
+    name: 'Pencil',
     id: 1,
-    url: 'https://img3.goodfon.ru/wallpaper/nbig/4/c0/abstract-background-rainbow-7757.jpg',
+    url:
+      'https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     blocks: [
       {
         name: 'Title',
         x: 10,
         y: 10,
-        text: 'Rainbow',
+        text: 'Pencil',
       },
       {
         name: 'Main',
@@ -42,8 +43,6 @@ const templateReducer = (state = initialState, action) => {
   }
 };
 
-// action creators
 export const setAd = (ad) => ({ type: SET_AD, ad });
-// export const setAd = (url) => ({ type: SET_AD, url });
 
 export default templateReducer;

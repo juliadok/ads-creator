@@ -1,14 +1,14 @@
 [
   {
-    "name": "Rainbow",
+    "name": "Pencil",
     "id": 1,
-    "url": "https://img3.goodfon.ru/wallpaper/nbig/4/c0/abstract-background-rainbow-7757.jpg",
+    "url": "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
         "x": 10,
         "y": 10,
-        "text": "Rainbow"
+        "text": "Pencil"
       },
       {
         "name": "Main",
@@ -25,15 +25,15 @@
     ]
   },
   {
-    "name": "Party",
+    "name": "Palm",
     "id": 2,
-    "url": "https://q-cf.bstatic.com/images/hotel/max1024x768/208/208187160.jpg",
+    "url": "https://images.pexels.com/photos/4322501/pexels-photo-4322501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
         "x": 10,
         "y": 10,
-        "text": "Party"
+        "text": "Palm"
       },
       {
         "name": "Main",
@@ -50,15 +50,15 @@
     ]
   },
   {
-    "name": "Animal",
+    "name": "Ballons",
     "id": 3,
-    "url": "https://i.pinimg.com/originals/62/12/33/621233789a9df143024d0a1eb8fe18e3.jpg",
+    "url": "https://images.pexels.com/photos/574282/pexels-photo-574282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Cat",
+        "name": "Title",
         "x": 10,
         "y": 10,
-        "text": "Animal"
+        "text": "Ballons"
       },
       {
         "name": "Main",
@@ -77,7 +77,7 @@
   {
     "name": "Medicine",
     "id": 4,
-    "url": "https://www.veganfoodandliving.com/wp-content/uploads/2019/03/featured.jpg",
+    "url": "https://images.pexels.com/photos/612825/pexels-photo-612825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
@@ -100,15 +100,15 @@
     ]
   },
   {
-    "name": "Sea",
+    "name": "Sky",
     "id": 5,
-    "url": "https://cdn.steemitimages.com/DQmNkkJd8jooLSuLHpzUjzEpQxqe5R5DE9AN2BqZPqY4rwp/For-Finding-Ease.png",
+    "url": "https://images.pexels.com/photos/3768/sky-sunny-clouds-cloudy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
         "x": 100,
         "y": 10,
-        "text": "Sea"
+        "text": "Sky"
       },
       {
         "name": "Main",
@@ -125,15 +125,15 @@
     ]
   },
   {
-    "name": "Travel",
+    "name": "Background",
     "id": 6,
-    "url": "https://j.dokol.in/images/amsterdam-1.jpg",
+    "url": "https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
         "x": 10,
         "y": 10,
-        "text": "Travel"
+        "text": "Background"
       },
       {
         "name": "Main",
@@ -150,15 +150,15 @@
     ]
   },
   {
-    "name": "Yellow",
+    "name": "Lamp",
     "id": 7,
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Color_icon_yellow.svg/300px-Color_icon_yellow.svg.png",
+    "url": "https://images.pexels.com/photos/2249958/pexels-photo-2249958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
         "x": 10,
         "y": 10,
-        "text": "Yellow"
+        "text": "Lamp"
       },
       {
         "name": "Main",
@@ -177,7 +177,7 @@
   {
     "name": "Ship",
     "id": 8,
-    "url": "https://media.cntraveler.com/photos/5de6a181a5b6180008b5ee82/4:3/w_480,c_limit/Sea-Cloud-Spirit_2_Sea_Cloud_Spirit_quer_A4.jpg",
+    "url": "https://images.pexels.com/photos/19678/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
@@ -200,15 +200,15 @@
     ]
   },
   {
-    "name": "Grass",
+    "name": "Water",
     "id": 9,
-    "url": "https://dxgh891opzso3.cloudfront.net/files/5/9/6/9/2/shutterstock_1045743757.jpg?height=2000&width=3000",
+    "url": "https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
         "x": 10,
         "y": 10,
-        "text": "Grass"
+        "text": "Water"
       },
       {
         "name": "Main",
@@ -225,15 +225,15 @@
     ]
   },
   {
-    "name": "Mushroom",
+    "name": "Random",
     "id": 10,
-    "url": "https://img5.goodfon.ru/wallpaper/nbig/8/48/makro-mir-boke-grib-ulitka.jpg",
+    "url": "https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
         "x": 10,
         "y": 10,
-        "text": "Mushroom"
+        "text": "Random"
       },
       {
         "name": "Main",
@@ -250,15 +250,15 @@
     ]
   },
   {
-    "name": "Nature",
+    "name": "Ocean",
     "id": 11,
-    "url": "https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/article/2019/11/26/canopy-growth-starts-producing-cannabis-beverages/10403657-4-eng-GB/Canopy-Growth-starts-producing-cannabis-beverages_wrbm_large.jpg",
+    "url": "https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
         "x": 10,
         "y": 10,
-        "text": "Nature"
+        "text": "Ocean"
       },
       {
         "name": "Main",
@@ -275,15 +275,15 @@
     ]
   },
   {
-    "name": "Man",
+    "name": "Sand",
     "id": 12,
-    "url": "https://www.desicomments.com/wp-content/uploads/2017/04/Sad-Guy-Pic-600x400.png",
+    "url": "https://images.pexels.com/photos/313563/sand-pattern-wave-texture-313563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
         "name": "Title",
         "x": 10,
         "y": 10,
-        "text": "Man"
+        "text": "Sand"
       },
       {
         "name": "Main",
@@ -294,6 +294,181 @@
       {
         "name": "Contact",
         "x": 10,
+        "y": 180,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Green",
+    "id": 13,
+    "url": "https://images.pexels.com/photos/4064305/pexels-photo-4064305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Green"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 90,
+        "text": "Main text example"
+      },
+      {
+        "name": "Contact",
+        "x": 100,
+        "y": 180,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Keyboard",
+    "id": 14,
+    "url": "https://images.pexels.com/photos/1420701/pexels-photo-1420701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Keyboard"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 90,
+        "text": "Main text example"
+      },
+      {
+        "name": "Contact",
+        "x": 100,
+        "y": 180,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Paint",
+    "id": 15,
+    "url": "https://images.pexels.com/photos/1704119/pexels-photo-1704119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Paint"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 90,
+        "text": "Main text example"
+      },
+      {
+        "name": "Contact",
+        "x": 100,
+        "y": 180,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Shadow",
+    "id": 16,
+    "url": "https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Shadow"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 90,
+        "text": "Main text example"
+      },
+      {
+        "name": "Contact",
+        "x": 100,
+        "y": 180,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Headphones",
+    "id": 17,
+    "url": "https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Headphones"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 90,
+        "text": "Main text example"
+      },
+      {
+        "name": "Contact",
+        "x": 100,
+        "y": 180,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Wood",
+    "id": 18,
+    "url": "https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Wood"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 90,
+        "text": "Main text example"
+      },
+      {
+        "name": "Contact",
+        "x": 100,
+        "y": 180,
+        "text": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Japan",
+    "id": 19,
+    "url": "https://images.pexels.com/photos/4007310/pexels-photo-4007310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "name": "Title",
+        "x": 10,
+        "y": 10,
+        "text": "Japan"
+      },
+      {
+        "name": "Main",
+        "x": 10,
+        "y": 90,
+        "text": "Main text example"
+      },
+      {
+        "name": "Contact",
+        "x": 100,
         "y": 180,
         "text": "Contact detail"
       }

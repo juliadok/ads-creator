@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Row, Col } from 'react-bootstrap';
+import { FacebookShareButton } from 'react-share';
 import Ad from '../Ad/Ad';
 
 const saveSvgAsPng = require('save-svg-as-png');
@@ -32,6 +33,9 @@ class ResultPage extends React.Component {
             <Col className="py-3">
               <Button variant="dark" onClick={this.handleClick}>
                 Download
+              </Button>
+              <Button variant="dark" className="ml-3">
+                <FacebookShareButton url={ad.url}>Share on Facebook</FacebookShareButton>
               </Button>
             </Col>
           </Row>

@@ -1,4 +1,3 @@
-// action types
 const SET_USER_TEXT = 'SET_USER_TEXT';
 const SET__NEXT_FORM = 'SET__NEXT_FORM';
 const SET_PREV_FORM = 'SET_PREV_FORM';
@@ -36,7 +35,6 @@ const formsPageReducer = (state = initialState, action) => {
   }
 };
 
-// action creators
 export const setUserData = (userData) => ({ type: SET_USER_TEXT, userData });
 export const setNextForm = (formNumber) => ({ type: SET__NEXT_FORM, formNumber });
 export const setPrevForm = (formNumber) => ({ type: SET_PREV_FORM, formNumber });
