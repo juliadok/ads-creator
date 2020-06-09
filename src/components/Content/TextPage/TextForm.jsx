@@ -2,14 +2,22 @@ import React from 'react';
 import { Form, Button, Row, Col } from 'react-bootstrap';
 import { reduxForm, Field } from 'redux-form';
 
-const TextForm = ({ formsPage, handleSubmit, onPrevPage, maxFormCount }) => {
+/**
+ * @see https://github.com/redux-form/redux-form/issues/2917#issuecomment-300914971
+ */
+const FieldInput = ({ input, type, placeholder }) => {
+  return <Form.Control type={type} placeholder={placeholder} value={input.value} onChange={input.onChange} />;
+};
+
+const TextForm = ({ ad, formsPage, handleSubmit, onPrevPage, maxFormCount }) => {
   const text = (
-    <Form.Group key={formsPage.texts[formsPage.formNumber].id}>
-      <Form.Label>{formsPage.texts[formsPage.formNumber].label}</Form.Label>
+    <Form.Group>
+      <Form.Label>{ad.blocks[formsPage.formNumber].label}</Form.Label>
       <Field
-        placeholder={formsPage.texts[formsPage.formNumber].placeholder}
-        name={formsPage.texts[formsPage.formNumber].name}
-        component="input"
+        placeholder={ad.blocks[formsPage.formNumber].placeholder}
+        name={`${formsPage.formNumber}`}
+        component={FieldInput}
+        type="text"
       />
     </Form.Group>
   );

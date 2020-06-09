@@ -1,18 +1,37 @@
 import React from 'react';
+import saveSvgAsPng from 'save-svg-as-png';
+import styles from './Ad.module.css';
+
+const DEFAULT_OPTIONS = {
+  scale: 0.5,
+  excludeCss: true,
+};
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Ad extends React.Component {
+  constructor(props) {
+    super(props);
+    this.svg = React.createRef();
+  }
+
+  save(options) {
+    saveSvgAsPng.saveSvgAsPng(this.svg.current, 'template.png', { ...DEFAULT_OPTIONS, ...options });
+  }
+
   render() {
     const { ad, values } = this.props;
     return (
-      <div style={{ position: 'relative', overflow: 'hidden', paddingBottom: '100%' }}>
-        <svg width="100%" height="100%" id="svg-chart" style={{ position: 'absolute', top: 0, left: 0 }}>
-          <image xlinkHref={ad.url} x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMaxYMax slice" />
+      <div className={styles.ad}>
+        <svg ref={this.svg} className={styles.svg}>
+          <image xlinkHref={ad.url} x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
           <foreignObject x="0" y="0" width="100%" height="100%">
             <div style={{ position: 'relative' }}>
-              <h1 style={{ position: 'absolute', top: ad.blocks[0].y, left: ad.blocks[0].x }}>{values[0]}</h1>
-              <p style={{ position: 'absolute', top: ad.blocks[1].y, left: ad.blocks[1].x }}>{values[1]}</p>
-              <p style={{ position: 'absolute', top: ad.blocks[2].y, left: ad.blocks[2].x }}>{values[2]}</p>
+              {values.map((value, index) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <p key={index} style={{ position: 'absolute', top: ad.blocks[index].y, left: ad.blocks[index].x }}>
+                  {value}
+                </p>
+              ))}
             </div>
           </foreignObject>
         </svg>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Col, Image } from 'react-bootstrap';
 import styles from './Template.module.css';
 
-const Template = ({ ad, onClick }) => {
+const Template = ({ ad, active, onClick }) => {
   const handleClick = () => {
     onClick(ad);
   };
@@ -10,7 +10,11 @@ const Template = ({ ad, onClick }) => {
   return (
     <Col xs={12} md={6} lg={4}>
       <Button variant="link" onClick={handleClick} className={`mb-3 ${styles.wrapper}`} block>
-        <Image src={ad.url} alt="template" className={styles.image} />
+        <Image
+          src={ad.url}
+          alt="template"
+          className={`${styles.image} rounded border ${active ? 'border-dark' : ''}`}
+        />
       </Button>
     </Col>
   );

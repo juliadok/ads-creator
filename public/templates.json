@@ -5,22 +5,22 @@
     "url": "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Pencil"
+        "placeholder": "Pencil"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -30,22 +30,22 @@
     "url": "https://images.pexels.com/photos/4322501/pexels-photo-4322501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Palm"
+        "placeholder": "Palm"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -55,22 +55,22 @@
     "url": "https://images.pexels.com/photos/574282/pexels-photo-574282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Ballons"
+        "placeholder": "Ballons"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Sell a white cat"
+        "placeholder": "Sell a white cat"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 10,
         "y": 180,
-        "text": "Send me a pm."
+        "placeholder": "Send me a pm."
       }
     ]
   },
@@ -80,22 +80,22 @@
     "url": "https://images.pexels.com/photos/612825/pexels-photo-612825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Medicine"
+        "placeholder": "Medicine"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -105,22 +105,22 @@
     "url": "https://images.pexels.com/photos/3768/sky-sunny-clouds-cloudy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 100,
         "y": 10,
-        "text": "Sky"
+        "placeholder": "Sky"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 100,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -130,22 +130,22 @@
     "url": "https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Background"
+        "placeholder": "Background"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -155,22 +155,22 @@
     "url": "https://images.pexels.com/photos/2249958/pexels-photo-2249958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Lamp"
+        "placeholder": "Lamp"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -180,22 +180,22 @@
     "url": "https://images.pexels.com/photos/19678/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Ship"
+        "placeholder": "Ship"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -205,22 +205,22 @@
     "url": "https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Water"
+        "placeholder": "Water"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -230,22 +230,22 @@
     "url": "https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Random"
+        "placeholder": "Random"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -255,22 +255,22 @@
     "url": "https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Ocean"
+        "placeholder": "Ocean"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -280,22 +280,22 @@
     "url": "https://images.pexels.com/photos/313563/sand-pattern-wave-texture-313563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Sand"
+        "placeholder": "Sand"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 10,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -305,22 +305,22 @@
     "url": "https://images.pexels.com/photos/4064305/pexels-photo-4064305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Green"
+        "placeholder": "Green"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -330,22 +330,22 @@
     "url": "https://images.pexels.com/photos/1420701/pexels-photo-1420701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Keyboard"
+        "placeholder": "Keyboard"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -355,22 +355,22 @@
     "url": "https://images.pexels.com/photos/1704119/pexels-photo-1704119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Paint"
+        "placeholder": "Paint"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -380,22 +380,22 @@
     "url": "https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Shadow"
+        "placeholder": "Shadow"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -405,22 +405,22 @@
     "url": "https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Headphones"
+        "placeholder": "Headphones"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -430,22 +430,22 @@
     "url": "https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Wood"
+        "placeholder": "Wood"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   },
@@ -455,22 +455,22 @@
     "url": "https://images.pexels.com/photos/4007310/pexels-photo-4007310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "blocks": [
       {
-        "name": "Title",
+        "label": "Enter the title",
         "x": 10,
         "y": 10,
-        "text": "Japan"
+        "placeholder": "Japan"
       },
       {
-        "name": "Main",
+        "label": "Main",
         "x": 10,
         "y": 90,
-        "text": "Main text example"
+        "placeholder": "Main text example"
       },
       {
-        "name": "Contact",
+        "label": "Contact",
         "x": 100,
         "y": 180,
-        "text": "Contact detail"
+        "placeholder": "Contact detail"
       }
     ]
   }

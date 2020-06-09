@@ -6,7 +6,6 @@ import Content from './components/Content/Content';
 
 const App = ({ state }) => {
   return (
-    // eslint-disable-next-line react/jsx-filename-extension
     <>
       <Header />
       <Content state={state} />

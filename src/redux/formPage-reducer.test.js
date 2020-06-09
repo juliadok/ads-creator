@@ -1,13 +1,14 @@
-import React from 'react';
 import formsPageReducer, { setUserData } from './formsPage-reducer';
 
-it('New data has been added successfully', () => {
-  const action = setUserData('New data');
-  const state = {
-    userData: [],
-  };
+describe('formsPageReducer', () => {
+  it('should add new data without errors', () => {
+    const action = setUserData('New data');
+    const state = {
+      userData: [],
+    };
 
-  const newState = formsPageReducer(state, action);
+    const newState = formsPageReducer(state, action);
 
-  expect(newState.userData).toBe('New data');
+    expect(newState.userData).toBe('New data');
+  });
 });

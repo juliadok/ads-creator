@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import TemplatesPageContainer from './TemplatesPage/TemplatesPageContainer';
-import TextPageContainer from './FormsPage/TextPageContainer';
+import TextPageContainer from './TextPage/TextPageContainer';
 import ResultPageContainer from './ResultPage/ResultPageContainer';
 
 const Content = ({ state }) => {

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-dark text-light py-3 mt-3">
       <Container className="clearfix">
-        <div className="float-left pr-3">&copy; 2020 Julia Dokolina. All rights reserved.</div>
+        <div className="float-left pr-3">&copy; 2020 Julia Dokolina</div>
       </Container>
     </div>
   );

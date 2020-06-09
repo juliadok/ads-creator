@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import store from './redux/redux-store';
 
 ReactDOM.render(
-  // eslint-disable-next-line react/jsx-filename-extension
   <BrowserRouter>
     <Provider store={store}>
       <App />

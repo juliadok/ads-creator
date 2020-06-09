@@ -3,13 +3,13 @@ import { Button, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Template from './Template/Template';
 
-const TemplatesBar = ({ templates, setAd }) => {
+const TemplatesBar = ({ current, templates, setAd }) => {
   return (
     <>
       <Row>
         {templates.map((ad, index) => (
           // eslint-disable-next-line react/no-array-index-key
-          <Template ad={ad} key={index} onClick={setAd} />
+          <Template ad={ad} active={current === ad} key={index} onClick={setAd} />
         ))}
       </Row>
       <Row>

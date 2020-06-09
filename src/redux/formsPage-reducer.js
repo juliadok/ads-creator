@@ -1,26 +1,22 @@
 const SET_USER_TEXT = 'SET_USER_TEXT';
-const SET__NEXT_FORM = 'SET__NEXT_FORM';
+const SET_NEXT_FORM = 'SET_NEXT_FORM';
 const SET_PREV_FORM = 'SET_PREV_FORM';
+const RESET_FORMS_DATA = 'RESET_FORMS_DATA';
 
 const initialState = {
-  texts: [
-    { id: 1, label: 'Enter the title:', placeholder: 'Your title', name: 'title' },
-    { id: 2, label: 'Enter the main text:', placeholder: 'Text', name: 'main' },
-    { id: 3, label: 'Enter your contact:', placeholder: 'Contact details', name: 'contact' },
-  ],
   userData: [],
   formNumber: 0,
-  progress: [0, 30, 60, 100],
 };
 
 const formsPageReducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_USER_TEXT:
-      return {
-        ...state,
-        userData: action.userData,
-      };
-    case SET__NEXT_FORM:
+      // eslint-disable-next-line no-case-declarations
+      const userData = [...state.userData];
+      userData[state.formNumber] = action.userData;
+
+      return { ...state, userData };
+    case SET_NEXT_FORM:
       return {
         ...state,
         formNumber: action.formNumber + 1,
@@ -30,13 +26,19 @@ const formsPageReducer = (state = initialState, action) => {
         ...state,
         formNumber: action.formNumber - 1,
       };
+    case RESET_FORMS_DATA:
+      return {
+        ...state,
+        formNumber: 0,
+      };
     default:
       return state;
   }
 };
 
 export const setUserData = (userData) => ({ type: SET_USER_TEXT, userData });
-export const setNextForm = (formNumber) => ({ type: SET__NEXT_FORM, formNumber });
+export const setNextForm = (formNumber) => ({ type: SET_NEXT_FORM, formNumber });
 export const setPrevForm = (formNumber) => ({ type: SET_PREV_FORM, formNumber });
+export const resetForms = () => ({ type: RESET_FORMS_DATA });
 
 export default formsPageReducer;
