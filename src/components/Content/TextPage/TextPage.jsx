@@ -2,9 +2,9 @@ import React from 'react';
 import { Col, Row, ProgressBar } from 'react-bootstrap';
 import { Redirect } from 'react-router-dom';
 import Ad from '../Ad/Ad';
-import { TextFormRedux } from './TextForm';
+import { TextFormRedux } from './TextForm/TextForm';
 
-const TextPage = ({ formsPage, ad, resetForms, setUserData, setNextForm, setPrevForm }) => {
+const TextPage = ({ formsPage, ad, resetFormNumber, setUserData, setNextForm, setPrevForm }) => {
   const onSubmit = (formData = '') => {
     const formValue = formData[`${formsPage.formNumber}`] || '';
 
@@ -21,7 +21,7 @@ const TextPage = ({ formsPage, ad, resetForms, setUserData, setNextForm, setPrev
   const progress = Math.round((formsPage.formNumber / maxFormCount) * 100);
 
   if (formsPage.formNumber === maxFormCount) {
-    resetForms();
+    resetFormNumber();
     return <Redirect to="/result" />;
   }
 

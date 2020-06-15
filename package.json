@@ -12,6 +12,7 @@
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.5",
     "redux-form": "^8.2.6",
+    "redux-thunk": "^2.3.0",
     "save-svg-as-png": "^1.4.17"
   },
   "scripts": {

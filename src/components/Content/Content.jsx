@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import TemplatesPageContainer from './TemplatesPage/TemplatesPageContainer';
 import TextPageContainer from './TextPage/TextPageContainer';
@@ -12,6 +12,7 @@ const Content = ({ state }) => {
         <Route exact path="/" render={() => <TemplatesPageContainer state={state} />} />
         <Route path="/text" render={() => <TextPageContainer state={state} />} />
         <Route path="/result" render={() => <ResultPageContainer state={state} />} />
+        <Route path="*" render={() => <Redirect to="/" />} />
       </Switch>
     </Container>
   );

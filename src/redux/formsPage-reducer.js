@@ -1,7 +1,8 @@
 const SET_USER_TEXT = 'SET_USER_TEXT';
 const SET_NEXT_FORM = 'SET_NEXT_FORM';
 const SET_PREV_FORM = 'SET_PREV_FORM';
-const RESET_FORMS_DATA = 'RESET_FORMS_DATA';
+const RESET_USER_DATA = 'RESET_USER_DATA';
+const RESET_FORM_NUMBER = 'RESET_FORM_NUMBER';
 
 const initialState = {
   userData: [],
@@ -26,7 +27,12 @@ const formsPageReducer = (state = initialState, action) => {
         ...state,
         formNumber: action.formNumber - 1,
       };
-    case RESET_FORMS_DATA:
+    case RESET_USER_DATA:
+      return {
+        ...state,
+        userData: [],
+      };
+    case RESET_FORM_NUMBER:
       return {
         ...state,
         formNumber: 0,
@@ -39,6 +45,7 @@ const formsPageReducer = (state = initialState, action) => {
 export const setUserData = (userData) => ({ type: SET_USER_TEXT, userData });
 export const setNextForm = (formNumber) => ({ type: SET_NEXT_FORM, formNumber });
 export const setPrevForm = (formNumber) => ({ type: SET_PREV_FORM, formNumber });
-export const resetForms = () => ({ type: RESET_FORMS_DATA });
+export const resetUserData = () => ({ type: RESET_USER_DATA });
+export const resetFormNumber = () => ({ type: RESET_FORM_NUMBER });
 
 export default formsPageReducer;
