@@ -4,11 +4,12 @@ describe('formsPageReducer', () => {
   it('should add new data without errors', () => {
     const action = setUserData('New data');
     const state = {
+      formNumber: 0,
       userData: [],
     };
 
     const newState = formsPageReducer(state, action);
 
-    expect(newState.userData).toBe('New data');
+    expect(newState.userData).toEqual(['New data']);
   });
 });
