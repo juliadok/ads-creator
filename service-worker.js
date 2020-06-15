@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://juliadok.github.io/ads-creator/precache-manifest.0ca36c441f39c61f91a1474b3d7e10c9.js"
+  "https://juliadok.github.io/ads-creator/precache-manifest.94b911cd5abf966cc3f9a09016edeab0.js"
 );
 
 self.addEventListener('message', (event) => {

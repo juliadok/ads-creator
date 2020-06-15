@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://juliadok.github.io/ads-creator/static/css/main.19b7a0ca.chunk.css",
-    "main.js": "https://juliadok.github.io/ads-creator/static/js/main.c144417c.chunk.js",
-    "main.js.map": "https://juliadok.github.io/ads-creator/static/js/main.c144417c.chunk.js.map",
+    "main.js": "https://juliadok.github.io/ads-creator/static/js/main.11a84682.chunk.js",
+    "main.js.map": "https://juliadok.github.io/ads-creator/static/js/main.11a84682.chunk.js.map",
     "runtime-main.js": "https://juliadok.github.io/ads-creator/static/js/runtime-main.5dbbf231.js",
     "runtime-main.js.map": "https://juliadok.github.io/ads-creator/static/js/runtime-main.5dbbf231.js.map",
     "static/css/2.af3c1da9.chunk.css": "https://juliadok.github.io/ads-creator/static/css/2.af3c1da9.chunk.css",
     "static/js/2.61b97f47.chunk.js": "https://juliadok.github.io/ads-creator/static/js/2.61b97f47.chunk.js",
     "static/js/2.61b97f47.chunk.js.map": "https://juliadok.github.io/ads-creator/static/js/2.61b97f47.chunk.js.map",
     "index.html": "https://juliadok.github.io/ads-creator/index.html",
-    "precache-manifest.0ca36c441f39c61f91a1474b3d7e10c9.js": "https://juliadok.github.io/ads-creator/precache-manifest.0ca36c441f39c61f91a1474b3d7e10c9.js",
+    "precache-manifest.94b911cd5abf966cc3f9a09016edeab0.js": "https://juliadok.github.io/ads-creator/precache-manifest.94b911cd5abf966cc3f9a09016edeab0.js",
     "service-worker.js": "https://juliadok.github.io/ads-creator/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "https://juliadok.github.io/ads-creator/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.19b7a0ca.chunk.css.map": "https://juliadok.github.io/ads-creator/static/css/main.19b7a0ca.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.61b97f47.chunk.js",
     "static/css/main.19b7a0ca.chunk.css",
-    "static/js/main.c144417c.chunk.js"
+    "static/js/main.11a84682.chunk.js"
   ]
 }
