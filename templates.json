@@ -1,0 +1,490 @@
+[
+  {
+    "name": "Pencil",
+    "id": 1,
+    "url": "https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Pencil"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 80,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Palm",
+    "id": 2,
+    "url": "https://images.pexels.com/photos/4322501/pexels-photo-4322501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Palm"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 30,
+        "y": 150,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Ballons",
+    "id": 3,
+    "url": "https://images.pexels.com/photos/574282/pexels-photo-574282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Ballons"
+      },
+      {
+        "label": "First main text",
+        "x": 30,
+        "y": 70,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Second main text",
+        "x": 30,
+        "y": 120,
+        "placeholder": "Second text example"
+      },
+      {
+        "label": "Contact dtails",
+        "x": 30,
+        "y": 180,
+        "placeholder": "Send me a pm."
+      }
+    ]
+  },
+  {
+    "name": "Medicine",
+    "id": 4,
+    "url": "https://images.pexels.com/photos/612825/pexels-photo-612825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Medicine"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact information",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Sky",
+    "id": 5,
+    "url": "https://images.pexels.com/photos/3768/sky-sunny-clouds-cloudy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Sky"
+      },
+      {
+        "label": "Main text",
+        "x": 100,
+        "y": 120,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 30,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Paintbrush",
+    "id": 6,
+    "url": "https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Paintbrush"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Lamp",
+    "id": 7,
+    "url": "https://images.pexels.com/photos/2249958/pexels-photo-2249958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Lamp"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Ship",
+    "id": 8,
+    "url": "https://images.pexels.com/photos/19678/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Ship"
+      },
+      {
+        "label": "Main text",
+        "x": 120,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 50,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Water",
+    "id": 9,
+    "url": "https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 10,
+        "placeholder": "Water"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Random",
+    "id": 10,
+    "url": "https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Random"
+      },
+      {
+        "label": "First main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "First main text",
+        "x": 30,
+        "y": 150,
+        "placeholder": "Second text example"
+      },
+      {
+        "label": "Contact",
+        "x": 50,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Ocean",
+    "id": 11,
+    "url": "https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Ocean"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Sand",
+    "id": 12,
+    "url": "https://images.pexels.com/photos/313563/sand-pattern-wave-texture-313563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Sand"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 30,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Green",
+    "id": 13,
+    "url": "https://images.pexels.com/photos/4064305/pexels-photo-4064305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Green"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 100,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Keyboard",
+    "id": 14,
+    "url": "https://images.pexels.com/photos/1420701/pexels-photo-1420701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Keyboard"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Paint",
+    "id": 15,
+    "url": "https://images.pexels.com/photos/1704119/pexels-photo-1704119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Paint"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Shadow",
+    "id": 16,
+    "url": "https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Shadow"
+      },
+      {
+        "label": "Main text",
+        "x": 30,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Headphones",
+    "id": 17,
+    "url": "https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 40,
+        "placeholder": "Headphones"
+      },
+      {
+        "label": "Main text",
+        "x": 120,
+        "y": 120,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 100,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Wood",
+    "id": 18,
+    "url": "https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 130,
+        "y": 30,
+        "placeholder": "Wood"
+      },
+      {
+        "label": "Main text",
+        "x": 35,
+        "y": 100,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 180,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  },
+  {
+    "name": "Japan",
+    "id": 19,
+    "url": "https://images.pexels.com/photos/4007310/pexels-photo-4007310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "blocks": [
+      {
+        "label": "Title",
+        "x": 30,
+        "y": 30,
+        "placeholder": "Japan"
+      },
+      {
+        "label": "Main text",
+        "x": 120,
+        "y": 90,
+        "placeholder": "Main text example"
+      },
+      {
+        "label": "Contact",
+        "x": 30,
+        "y": 180,
+        "placeholder": "Contact detail"
+      }
+    ]
+  }
+]
+
