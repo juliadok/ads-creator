@@ -1,10 +1,30 @@
 # Template Creator
-краткое описание
+Create your personal ad in less than a minute.
 
 ## Get Started
 
-Ссылка на сайт
-Скриншоты с описанием действий
+### Step 1. Choose a template
+
+Click on a picture to see the example of the final version.
+
+![Step 1](/docs/screenshots/1.png)
+
+Pick one of them and click the "Choose" button to go on the second step.
+
+![Sample Ad](/docs/screenshots/2.png)
+
+### Step 2. Сustomize your personal template
+
+Enter a title, main blocks information, and contact details. You can skip some fields if you want. You can immediately see the current result on the right.
+
+![Step 2](/docs/screenshots/3.png)
+
+### Step 3. Save the result
+
+Save the customize ad on the computer.
+
+![Step 3](/docs/screenshots/4.png)
+
 
 ## Development
 
